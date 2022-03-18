@@ -8,7 +8,7 @@ This program generates README.md
 
 ## Table of contents
 
-- [Instalation](#installation)
+- [Installation](#installation)
 - [Visuals](#Visuals)
 - [License](#license)
 - [Questions](#questions)
