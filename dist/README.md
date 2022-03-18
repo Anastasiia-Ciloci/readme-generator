@@ -1,7 +1,8 @@
 
-  #  
-  undefined
-  
+  # Readme generator 
+  ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+  The MIT License
+https://opensource.org/licenses/MIT
 
   
   ## Description
@@ -13,19 +14,19 @@
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  
+  easy
   ## Usage
-  In order to use this app, fdf
+  In order to use this app, npm i
   ## License
-   No link avaliable
-  This project is licensed under the None license.
   
-  None
+  This project is licensed under the The MIT License license.
+  
+  The MIT License
   ## Contributing
-  Contributors: f
+  Contributors: 
   ## Tests
-  To run this test you need
+  To run this test you needno tests neede
   ## Questions
-  
-  If you have any question about this project, you can reach me out by .
+  no questions
+  If you have any question about this project, you can reach me out by myemail@gmail.com.
   

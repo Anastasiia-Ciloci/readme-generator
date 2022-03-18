@@ -8,8 +8,8 @@ function renderLicenseBadge(license) {
       return `![License: Apache License](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)`;
     case "The BSD License":
       return `![License: The BSD License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`;
-    case "None:":
-      return ` No badge`;
+    case "None":
+      return [];
   }
 }
 
@@ -23,14 +23,16 @@ function renderLicenseLink(license) {
   } else if (license === "The BSD License") {
     return "https://opensource.org/licenses/BSD-3-Clause";
   } else {
-    return ` No link avaliable`;
+    return [];
   }
 }
 // TODO: Create a function that returns the license section of README
 
 //If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return license !== "None" ? `${license}\n${renderLicenseLink(license)}` : "";
+  return license !== "None"
+    ? `${license}\n${renderLicenseLink(license) || []}`
+    : [];
 }
 
 // TODO: Create a function to generate markdown for README
